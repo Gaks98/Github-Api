@@ -12,7 +12,7 @@ export class ProfileComponent implements OnInit {
   //repos: any[];
   //username: string;
 
-  //constructor(private profileService: ProfileService) {
+  constructor(private profileService: ProfileService) {
 
   }
 
