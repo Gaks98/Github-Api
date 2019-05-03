@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-//import { HttpModule } from '@angular/http';
+import { HttpModule } from '@angular/http';
 //import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -17,7 +17,7 @@ import { ProfileService } from './services/profile.service';
   imports: [
     BrowserModule,
     AppRoutingModule,
-   // HttpModule,
+    HttpModule,
    // FormsModule
   ],
   providers: [ProfileService],
