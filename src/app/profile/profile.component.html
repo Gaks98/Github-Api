@@ -31,8 +31,8 @@
         <div class="col-sm-4">
           <img src="{{profile.avatar_url}}" class="img-circle img-responsive" alt="Profile Image">
         </div>
-        <div class="col-sm-2"> </div>
-          
+        <div class="row"> 
+          <div class="column-sm-5">
            <ul class="list-group">
             <li class="list-group-item" *ngIf="profile.bio">{{profile.bio}}</li>
             <li class="list-group-item" *ngIf="profile.hireable">Available for hire</li>
@@ -41,7 +41,8 @@
             <li class="list-group-item" *ngIf="profile.email"><a href="emailto:{{profile.email}}">{{profile.email}}</a>
             </li>
           </ul>
-         
+          </div>
+         </div>
            </div>
            </div>
           <div class="row">
