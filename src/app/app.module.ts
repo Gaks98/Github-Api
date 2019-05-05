@@ -15,12 +15,14 @@ import { ProfileComponent } from './profile/profile.component';
 import { from } from 'rxjs';
 import { ProfileService } from './services/profile.service';
 import { LandingPageComponent } from './landing-page/landing-page.component';
+import { ExistencePipe } from './existence.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     ProfileComponent,
-    LandingPageComponent
+    LandingPageComponent,
+    ExistencePipe
   ],
   imports: [
     BrowserModule,
