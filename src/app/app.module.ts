@@ -5,8 +5,8 @@ import { FormsModule } from '@angular/forms';
 import { RouterModule, Routes } from '@angular/router';
 // defining routes
 const routes: Routes = [
-  {path: "landing-page", component: LandingPageComponent},
-  { path: "profile", component: ProfileComponent}
+  // {path: "landing-page", component: LandingPageComponent},
+  { path: 'profile', component: ProfileComponent}
 ]
 
 import { AppRoutingModule } from './app-routing.module';
