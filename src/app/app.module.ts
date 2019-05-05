@@ -8,11 +8,13 @@ import { AppComponent } from './app.component';
 import { ProfileComponent } from './profile/profile.component';
 import { from } from 'rxjs';
 import { ProfileService } from './services/profile.service';
+import { LandingPageComponent } from './landing-page/landing-page.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ProfileComponent
+    ProfileComponent,
+    LandingPageComponent
   ],
   imports: [
     BrowserModule,
