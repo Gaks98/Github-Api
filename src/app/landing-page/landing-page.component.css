@@ -108,7 +108,7 @@ ul li:nth-child(6)::before {
 }
 
 /* for body */
-/* .rect {
+.rect {
   margin: 0;
   padding: 0;
   background: #f2f2f2;
@@ -180,4 +180,4 @@ img {
 .topics {
   text-align: center;
   color: #ca4102;
-} */
+}
