@@ -5,7 +5,7 @@ By Yvonne Gitonga
 
 ## Description
 
-This project allows one to search for github users by typing in their name,and in return get back the users repos, followers, bio, and all other public information of the searched identity.
+This project allows one to search for github users by typing in their name,and in return gets back the user's repos, followers, bio, and all other public information of the searched identity.
 
 ## BDD
 
@@ -21,9 +21,9 @@ This project allows one to search for github users by typing in their name,and i
 
 To start using this project use the following commands:
 
-⋅⋅* git clone https://github.com/Gaks98/Github-Api.git 
-⋅⋅* an editor is vs code,atom etc
-⋅⋅* pre-installed npm
+1. git clone https://github.com/Gaks98/Github-Api.git 
+2. an editor is vs code,atom etc
+3. pre-installed npm
 
 ## Link to Live Website
 https://Gaks98.github.io/Github-Api
