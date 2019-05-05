@@ -16,13 +16,15 @@ import { from } from 'rxjs';
 import { ProfileService } from './services/profile.service';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { ExistencePipe } from './existence.pipe';
+import { BackgroundDirective } from './background.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
     ProfileComponent,
     LandingPageComponent,
-    ExistencePipe
+    ExistencePipe,
+    BackgroundDirective
   ],
   imports: [
     BrowserModule,
