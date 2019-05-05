@@ -1,4 +1,4 @@
-<body>
+
   <!--navbar-->
   <div class="rect">
   <div class="rectangle">
@@ -22,7 +22,7 @@
         </a>
       </li>
       <li>
-        <a routerLink = '/profile' routerLinkActive = 'active'>
+        <a routerLink = '/profile' routerLinkActive = 'active' target="_blank">
           <span>GitHub</span>
           <span>API</span>
         </a>
@@ -43,6 +43,7 @@
   </div>
 
   <br>
+ <router-outlet></router-outlet>
   <!--body-->
   <h1 class="topics">Popular Github users</h1>
   <!--containerz1-->
@@ -170,4 +171,4 @@
     </div>
   </div>
   </div>
-<router-outlet></router-outlet>
+

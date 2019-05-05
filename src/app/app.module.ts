@@ -4,10 +4,10 @@ import { HttpModule } from '@angular/http';
 import { FormsModule } from '@angular/forms';
 import { RouterModule, Routes } from '@angular/router';
 // defining routes
-const routes: Routes = [
+// const routes: Routes = [
   // {path: "landing-page", component: LandingPageComponent},
-  { path: 'profile', component: ProfileComponent}
-]
+  // { path: 'profile', component: ProfileComponent}
+// ]
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -27,7 +27,7 @@ import { LandingPageComponent } from './landing-page/landing-page.component';
     AppRoutingModule,
     HttpModule,
     FormsModule,
-    RouterModule.forRoot(routes)
+    RouterModule.forRoot([{ path: 'profile', component: ProfileComponent }])
   ],
   providers: [ProfileService],
   bootstrap: [AppComponent]
